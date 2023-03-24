@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+.container{
+    justify-content: center;
+    
+}
+.btn-primary{
+color: white;
+}
+.result-container{
+    
+    background-color: blue;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: white;
+
+}
+.productItemContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 50px;
+    border-bottom: 1px solid white;
+}
+.productName{
+    font-size: 14px;
+    width: 80%;
+}
+.productImage{
+    height: 80%;
+}
